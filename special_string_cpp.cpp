@@ -28,18 +28,14 @@ long substrCount(int n, string s) {
 int main()
 {
     
-
     int n;
     string s;
     cin>>n;
     cin>>s;
 
-
     long result = substrCount(n, s);
 
     cout << result << "\n";
-
-    
 
     return 0;
 }
